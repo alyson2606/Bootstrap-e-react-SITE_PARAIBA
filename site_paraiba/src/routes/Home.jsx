@@ -4,13 +4,14 @@ import '../App.css'
 import Paraiba from '../img/Paraiba.jpg'
 import Cícero from '../img/Cícero Lucena.jpg'
 import João_Azevedo from '../img/João Azevedo.jpg'
+import {Link} from 'react-router-dom'
 const Home = () => {
 
   return (
    
     <div>
       <Nav_bar/>
-      <div className="container-fl</div>uid">
+      <div className="container-fluid">
         <div class='mascara'>
             <h1 className='fw-bold' id='ola'>A história da Paraiba </h1>
             <div className='row'>
@@ -51,6 +52,10 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <footer className='bg-dark text-light p-4'>
+          <h2 className='fw-bold'>Deseja saber mais?</h2>
+            <Link to='/saibaMais'><button className='btn btn-primary'>Saiba Mais</button></Link>
+        </footer>
       </div>
    
   )
