@@ -15,10 +15,10 @@ const Nav_bar = () => {
                 <a class="nav-link active" aria-current="page" href="#ola">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Bandeira</a>
+                <a class="nav-link" href="#bandeira">Bandeira</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Governo</a>
+                <a class="nav-link" href="#governo">Governo</a>
                 </li>
                
             </ul>
