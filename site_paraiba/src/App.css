@@ -1,0 +1,13 @@
+.mascara{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    z-index: -1;
+}
+
+span{
+    color: rgb(243, 0, 0);
+}
+
+img{
+    width: 25vw;
+}
