@@ -31,7 +31,7 @@ const Home = () => {
       
                   <h2 className="text-center mb-4">Políticos</h2>
         <section className="row justify-content-center" id="governo">
-          <div className="card mx-3 mb-4 p-0 shadow" style={{ width: '20rem' }}>
+          <div className="card mx-3 mb-4 p-0 shadow cards" style={{ width: '20rem' }}>
             <img src={João_Azevedo} className="card-img-top img-card rounded-top" alt="João Azevedo" />
             <div className="card-body">
               <h5 className="card-title text-center fw-bold">João Azevedo</h5>
@@ -41,7 +41,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="card mx-3 mb-4 p-0 shadow" style={{ width: '20rem' }}>
+          <div className="card mx-3 mb-4 p-0 shadow cards" style={{ width: '20rem' }}>
             <img src={Cícero} className="card-img-top img-card rounded-top" alt="Cícero Lucena" />
             <div className="card-body">
               <h5 className="card-title text-center fw-bold">Cícero Lucena</h5>
